@@ -9,7 +9,7 @@ class Main {
         car.printDataCar();
 
         Account driver2 = new Account("Adriana Sevillano", "66903734");
-        Car car2 = new Car("QWE567", driver);
+        Car car2 = new Car("QWE567", driver2);
         car2.passenger = 3;
         car2.printDataCar();
     }
