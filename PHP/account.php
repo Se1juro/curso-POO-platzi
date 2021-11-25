@@ -5,4 +5,10 @@ class Account
     public string $name;
     public string $document;
     public string $password;
+
+    public function __construct($name, $document)
+    {
+        $this->name = $name;
+        $this->document = $document;
+    }
 }
