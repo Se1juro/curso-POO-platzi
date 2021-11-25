@@ -1,5 +1,6 @@
 from account import Account
 from car import Car
+from paypal import PayPal
 from uberX import UberX
 if __name__ == '__main__':
     driver = Account("Daniel Morales", "1144108017")
@@ -12,3 +13,6 @@ if __name__ == '__main__':
 
     uberX = UberX("KPX992", Account("Daniel", "1234"), "Renault", "Kwid")
     print(vars(uberX))
+
+    paypal = PayPal(123, "mralejo99@gmail.com")
+    paypal.printPayment()
