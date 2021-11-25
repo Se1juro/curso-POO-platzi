@@ -12,5 +12,8 @@ class Main {
         Car car2 = new Car("QWE567", driver2);
         car2.passenger = 3;
         car2.printDataCar();
+
+        Payment payment = new Payment(123);
+        Cash cash = new Cash(123);
     }
 }
