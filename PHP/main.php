@@ -5,8 +5,9 @@ require_once('./uberPool.php');
 require_once('./account.php');
 require_once('./payment.php');
 require_once("./paypal.php");
+require_once('./driver.php');
 
-$driver = new Account("Daniel Morales", "114410807");
+$driver = new Driver("Daniel Morales", "114410807");
 $uberX = new UberX("KPX993", new Account("Daniel", "1144108017"), "Renault", "Kwid");
 
 

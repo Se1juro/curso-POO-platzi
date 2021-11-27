@@ -2,8 +2,7 @@ package JAVA;
 
 class Main {
     public static void main(String[] args) {
-        System.out.println("Hola mundo");
-        Account driver = new Account("Daniel Morales", "1144108017");
+        Account driver = new Driver("Daniel Morales", "1144108017");
         Car car = new Car("AMQ123", driver);
         car.passenger = 4;
         car.printDataCar();
