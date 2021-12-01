@@ -6,7 +6,6 @@ const { UberX } = require("./uberX");
 
 const driver = new Driver("Daniel Morales", "1144108017");
 const car = new Car("KPX993", driver);
-car.passenger = 4;
 car.printDataCar();
 
 const uberX = new UberX(
