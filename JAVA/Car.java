@@ -1,6 +1,6 @@
 package JAVA;
 
-class Car {
+public class Car {
     private Integer id;
     private String license;
     private Account driver;
@@ -21,11 +21,7 @@ class Car {
     }
 
     public void setPassenger(Integer passenger) {
-        if (passenger == 4) {
-            this.passenger = passenger;
-        } else {
-            System.out.println("La cantidad minima de pasajeros son 4.");
-        }
+        this.passenger = passenger;
     }
 
     public Integer getId() {
