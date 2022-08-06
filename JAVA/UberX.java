@@ -11,6 +11,14 @@ public class UberX extends Car {
     }
 
     @Override
+    void printDataCar() {
+        System.out.println(
+                "License: " + super.getLicense() + "\tDriver: " + super.getDriver().name + "\n" + "Passengers: "
+                        + super.getPassenger() + "\nBrand: " + this.brand + "\nModel: " + this.model);
+
+    }
+
+    @Override
     public void setPassenger(Integer passenger) {
         // TODO Auto-generated method stub
         if (passenger == 4)

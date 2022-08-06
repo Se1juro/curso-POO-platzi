@@ -11,4 +11,9 @@ class UberX extends Car
         $this->brand = $brand;
         $this->model = $model;
     }
+
+    public function printDataCar()
+    {
+        return "License: " . parent::getLicense() . "\tConductor: " . parent::getDriver()->name . " Document: " . parent::getDriver()->document . "\nBrand: " . $this->brand . "\nModel: " . $this->model;
+    }
 }
